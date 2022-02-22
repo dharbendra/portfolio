@@ -5,120 +5,216 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dharbendra</title>
-    <link rel="stylesheet" href="style.css" />
+
+    <link rel="stylesheet" href="assets/css/bootstrap.css" />
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <!-- <link rel="stylesheet" href="assets/style.css"> -->
   </head>
   <body>
-    <div class="container">
-      <table>
-        <tr>
-          <td>
-            <div class="intro">
-              
-              <div class="circle">
-              </div>
-              <div class="main-text">
-                Hi, I am Dharbendra Prasad Yadav. In Training for Full Stack
-                Developer (Mern Stack) with Dented Code
-              </div>
-              <div class="text-small">
-                I am known to this world by a name called Dharbendra Prasad
-                Yadav. I also belongs to same group of humans that have a name,
-                a family, and a life called Race.
-              </div>
-            </div>
-            <!--intro-->
-          </td>
-          <td>
-            <div class="widget">
-              <div class="about">
-                <div class="text">About Me</div>
-                <!--Text-->
-                <div class="text-small">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. In,
-                  eum amet. Architecto, voluptas suscipit mollitia dolores
-                  obcaecati consequuntur repellat, ratione commodi minus enim
-                  sed neque./>
-                </div>
-                <!--Text Small-->
-              </div>
-              <!--About-->
-              <div class="tools">
-                <div class="text">Tools I know</div>
-                <!--text-->
-                <div class="text-small">
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Dolores, consectetur sint fugit sequi eum doloribus, molestias
-                  aliquam, et incidunt harum quas aut officiis distinctio
-                  accusantium.
-                </div>
-                <!--text-small-->
-              </div>
-              <!--tools-->
-              <div class="job">
-                <div class="text">What I do</div>
-                <div class="text-small">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-                  eaque, ad eius optio consequatur omnis aut? Deleniti numquam
-                  reprehenderit atque facere consectetur facilis sapiente
-                  explicabo?
-                </div>
-              </div>
-              <!--job-->
-              <div class="projects">
-                <div class="text">Projects I have Done</div>
-                <div class="text-small">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo
-                  velit vel illum, saepe dolorem distinctio molestiae amet esse
-                  tenetur voluptate consectetur pariatur, deleniti aliquid
-                  tempore!
-                </div>
-              </div>
-              <!--projects-->
-              <div class="experience">
-                <div class="text">My Work experience</div>
-                <div class="text-small">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Tempore sunt aliquid amet, quibusdam facilis alias porro optio
-                  ab blanditiis tenetur asperiores id quo consectetur repellat?
-                </div>
-              </div>
-              <!--experience-->
-              <div class="contact">
-                <div class="text">Contact Me</div>
-                <div class="text-small">
-                  Your messages are important to me. Please fill the form below
-                  and I will reply you as earlier I can. Thank you.
-                </div>
-              </div>
-              <!--contact-->
-            </div>
-            <!--widget-->
-          </td>
-        </tr>
-        </table>
-
-        <div class="footer">
-          <table>
-            <tr>
-              <td>
-                <div class="resume">
-                  <button class="resune">Download My Latest Resume</button>
-                </div>
-              </td>
-              <!--Resume-->
-              <td>
-                <div class="social">
-                  <div class="text-small">Connect with me in social media</div>
-                  <div class="icons">Icons and Links</div>
-                </div>
-                <!--social-->
-              </td>
-            </tr>
-          </table>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">Dharbendra</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#service">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
         </div>
-        <!--footer-->
-      </table>
-    </div>
-    <!--container-->
+      </div>
+    </nav>
+
+    <section class="banner" id="home">
+      <div class="container banner__inner">
+        <div class="banner__inner__image">
+          <img src="assets/images/image.png" class="img-fluid" alt="" />
+        </div>
+        <div class="banner__inner__info">
+          <span
+            >Hi, I am Dharbendra Prasad Yadav. In Training for Full Stack
+            Developer (Mern Stack) with Dented Code</span
+          >
+          <span>
+            I am known to this world by a name called Dharbendra Prasad Yadav. I
+            also belongs to same group of humans that have a name, a family, and
+            a life called Race.</span
+          >
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h2>About</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
+              facere magnam unde ipsa sit eaque, molestiae cupiditate atque
+              totam ratione in impedit dolore dicta laudantium ut nemo natus
+              dignissimos voluptatem assumenda molestias tenetur nulla explicabo
+              eum! Doloribus cum nemo natus sequi possimus harum vel cupiditate
+              eius reprehenderit expedita. Maxime nobis laboriosam consequuntur
+              perferendis dolorem. Ab consequatur, a, repudiandae debitis nemo
+              assumenda id nisi minima porro culpa recusandae? Qui doloribus
+              voluptatem harum optio aut deleniti molestiae veniam, dolorem ipsa
+              porro distinctio laboriosam omnis corrupti dolor? Suscipit
+              molestias, corrupti porro optio perspiciatis quam a esse id eius
+              doloremque aspernatur ea ducimus, aliquam est repudiandae numquam
+              obcaecati qui? Neque, commodi optio reprehenderit fugiat
+              temporibus at eos eligendi velit maxime magnam dolore consequuntur
+              soluta modi dolorem, voluptatibus inventore sunt quo? Quae illo
+              nisi consequatur iusto neque, fugit quo consequuntur qui, animi
+              dignissimos nihil minus provident quam amet itaque magnam quisquam
+              exercitationem pariatur sed nobis!
+            </p>
+            <p>
+              Saepe, ullam explicabo. Soluta, minima quos labore consequuntur
+              earum quasi ea quas, deleniti voluptatem officia necessitatibus
+              consectetur aliquid. Facere provident fugiat quis, architecto
+              earum dicta iure. Tempora quibusdam nulla debitis dolore illo
+              pariatur, dignissimos repellendus explicabo est in odio obcaecati
+              adipisci dolor voluptatem. Non, corporis, ex eius modi accusantium
+              vitae, quis libero laborum aliquid odio quo at omnis rem ullam
+              magni numquam dolorum eum aliquam nemo! Aut sed quasi fuga illo
+              quia quam, magni possimus, suscipit nobis numquam ducimus hic qui
+              aliquid ad facere praesentium esse ipsa nostrum labore blanditiis
+              officiis itaque quaerat. Earum placeat aut nemo omnis laborum at
+              quidem exercitationem, vel odio totam, ducimus rerum? Aliquid,
+              cupiditate laborum exercitationem maiores similique quo facere
+              quisquam quos eius quidem nulla rem deleniti, dolorem cum
+              voluptatum quasi corporis culpa. Consectetur dolores, quidem,
+              molestias cumque veniam omnis laudantium vel magnam quae ratione,
+              reiciendis possimus dicta rerum eos. Voluptate animi facilis saepe
+              fugiat.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="service" id="service">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 inner">
+            <h2>About</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
+              facere magnam unde ipsa sit eaque, molestiae cupiditate atque
+              totam ratione in impedit dolore dicta laudantium ut nemo natus
+              dignissimos voluptatem assumenda molestias tenetur nulla explicabo
+              eum! Doloribus cum nemo natus sequi possimus harum vel cupiditate
+              eius reprehenderit expedita. Maxime nobis laboriosam consequuntur
+              perferendis dolorem. Ab consequatui? Neqconsequaturue, commodi
+              optio reprehenderit fugiat temporibus at eos eligendi velit maxime
+              magnam dolore consequuntur soluta modi dolorem, voluptatibus
+              inventore sunt quo? Quae illo nisi iusto neque, fugit quo
+              consequuntur qui, animi dignissimos nihil minus provident quam
+              amet itaque magnam quisquam exercitationem pariatur sed nobis!
+            </p>
+            <p>
+              Saepe, ullam explicabo. Soluta, minima quos labore consequuntur
+              earum quasi ea quas, deleniti voluptatem officia necessitatibus
+              consectetur aliquid. Facere provident fugiat quis, architecto
+              earum dicta iure. Tempora quibusdam nulla debitis dolore illo
+              pariatur, dignissimos repellendus explicabo est in odio obcaecati
+              adipisci dolor voluptatem. Non, corporis, ex eius modi accusantium
+              vitae, quis libero laborum aliquid odio quo at omnis rem ullam
+              magni numquam dolorum eum aliquam nemo! Aut sed quasi fuga illo
+              quia quam, magni possimus, suscipit nobis numquam ducimus hic qui
+              aliquid ad facere praesentium esse ipsa nostrum labore blanditiis
+              officiis itaque quaerat. Earum placeat aut nemo omnis laborum at
+              quidem exercitationem, vel odio totam, ducimus rerum? Aliquid,
+              cupiditate laborum exercitationem maiores similique quo facere
+              quisquam quos eius quidem nulla rem deleniti, dolorem cum
+              voluptatum quasi corporis culpa. Consectetur dolores, quidem,
+              molestias cumque veniam omnis laudantium vel magnam quae ratione,
+              reiciendis possimus dicta rerum eos. Voluptate animi facilis saepe
+              fugiat.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 inner">
+            <h2>Contact</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
+              facere magnam unde ipsa sit eaque, molestiae cupiditate atque
+              totam ratione in impedit dolore dicta laudantium ut nemo natus
+              dignissimos voluptatem assumenda molestias tenetur nulla explicabo
+              eum! Doloribus cum nemo natus sequi possimus harum vel cupiditate
+              eius reprehenderit expedita. Maxime nobis laboriosam consequuntur
+              perferendis dolorem. Ab consequatur, a, repudiandae debitis nemo
+              assumenda id nisi minima porro culpa recusandae? Qui doloribus
+              voluptatem harum optio aut deleniti molestiae veniam, dolorem ipsa
+              porro distinctio laboriosam omnis corrupti dolor? Suscipit
+              molestias, corrupti porro optio perspiciatis quam a esse id eius
+              doloremque aspernatur ea ducimus, aliquam est repudiandae numquam
+              obcaecati qui? Neque, commodi optio reprehenderit fugiat
+              temporibus at eos eligendi velit maxime magnam dolore consequuntur
+              soluta modi dolorem, voluptatibus inventore sunt quo? Quae illo
+              nisi consequatur iusto neque, fugit quo consequuntur qui, animi
+              dignissimos nihil minus provident quam amet itaque magnam quisquam
+              exercitationem pariatur sed nobis!
+            </p>
+            <p>
+              Saepe, ullam explicabo. Soluta, minima quos labore consequuntur
+              earum quasi ea quas, deleniti voluptatem officia necessitatibus
+              consectetur aliquid. Facere provident fugiat quis, architecto
+              earum dicta iure. Tempora quibusdam nulla debitis dolore illo
+              pariatur, dignissimos repellendus explicabo est in odio obcaecati
+              adipisci dolor voluptatem. Non, corporis, ex eius modi accusantium
+              vitae, quis libero laborum aliquid odio quo at omnis rem ullam
+              magni numquam dolorum eum aliquam nemo! Aut sed quasi fuga illo
+              quia quam, magni possimus, suscipit nobis numquam ducimus hic qui
+              aliquid ad facere praesentium esse ipsa nostrum labore blanditiis
+              officiis itaque quaerat. Earum placeat aut nemo omnis laborum at
+              quidem exercitationem, vel odio totam, ducimus rerum? Aliquid,
+              cupiditate laborum exercitationem maiores similique quo facere
+              quisquam quos eius quidem nulla rem deleniti, dolorem cum
+              voluptatum quasi corporis culpa. Consectetur dolores, quidem,
+              molestias cumque veniam omnis laudantium vel magnam quae ratione,
+              reiciendis possimus dicta rerum eos. Voluptate animi facilis saepe
+              fugiat.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">footer section</div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
